@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This will be used to tailor our services to your needs</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Enter Full  Name: <input id="name" type="text" name="full-names" required placeholder="Idris Vitricx" /></label>
+      <label id="email-label" for="email">
+        Enter Your Email: <input id="email" type="email" name="personal-email" placeholder="name@gmail.com" required/></label>
+
+        <label id="number-label" for="number"> Enter valid Age: <input id="number" type="number" min="13" max="120" name="Age" placeholder="15" required/></label>
+          </fieldset>
+    <fieldset>
+      <legend>How did you hear about us?</legend>
+      <select id="dropdown" name="options">
+      <option>Google</option>
+      <option>A Friend</option>
+      <option>You Tube</option>
+      <option>Instagram</option>
+        </select>
+      </fieldset>
+    <fieldset>
+      <legend>Gender</legend>
+      <label><input id="Male" type="radio" name="gender" value="male" checked/> Male</label>
+      <label><input id="Female" type="radio" name="gender" value="female"/> Female</label>
+      </fieldset>
+    <fieldset>
+      <legend>Pick what really describes you.</legend>
+  <label><input id="Aggressive" type="checkbox" value="agressive" name="personailty"/> Aggressive</label>
+  <label><input id="Calm" type="checkbox" value="calm" name="personality"/> Calm</label>
+  <label><input id="Extrovert" type="checkbox" value="Extrovert" name="Personality"/> Extrovert</label>
+  <label><input id="Introvert" value="Introvert" type="checkbox" name="Personality"/> Introvert</label>
+  <label><input id="Leader" type="checkbox" value="leader" name="Personality" /> Leader</label>
+    </fieldset>
+    <fieldset>
+      <legend>Tell us what you'd want us to change.</legend>
+      <textarea rows=4 cols="33"></textarea>
+    </fieldset>
+    <label><input id="submit" type="submit"  name="submit"/></label>
+        </form>
+      </body>
+  </html>
+
+
+
+
